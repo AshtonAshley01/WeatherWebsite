@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&family=Orbitron&family=Playfair+Display:ital,wght@1,900&display=swap');
+
+body{
+    background-image: url(/assests/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heading{
+    font-family: Playfair Display;
+    font-size: 4em;
+    margin-top:1.2em;
+}
+
+.btn-translucent {
+    background-color: rgba(255, 255, 255, 0.7); /* Change the last value (0.7) for the desired level of translucency (0.0 to 1.0) */
+    border: none;
+  }  
+
+#current-weather {
+  font-weight: bold;
+}
+
+#forecast-weather {
+  margin-top: 10px;
+}
+
+.container-2{
+    font-family: Lora;
+    font-size: 1.5em;
+    margin-top: 5em;
+}
